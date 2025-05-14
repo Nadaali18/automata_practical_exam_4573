@@ -1,4 +1,5 @@
 class TuringMachine:
+    #دي دالة التهيئة (تشتغل أول ما تنشئ اوبجيكت من الكلاس)
     def __init__(self, tape):
         self.tape = list(tape) + ['_'] * 100  
         self.head = 0
@@ -6,6 +7,7 @@ class TuringMachine:
         self.length = 0
         self.accept = False
 
+    # بتحرك الراس بس انا مستخدمتهاش هي عامه لو حد هيستخدم الكود وحابب يطور فيه وكدا
     def move_head(self, direction):
         if direction == 'R':
             self.head += 1
@@ -14,6 +16,7 @@ class TuringMachine:
         else:
             pass  # Stay
 
+   # تحسب كام 1 موجودة على tape ف النص
     def count_unary_length(self):
         self.length = 0
         while self.tape[self.head] == '1':
@@ -21,6 +24,7 @@ class TuringMachine:
             self.head += 1
         self.head = 0
 
+    #تشوف هل الرقم n عدد أولي
     def is_prime(self, n):
         if n < 2:
             return False
@@ -29,6 +33,7 @@ class TuringMachine:
                 return False
         return True
 
+    #الدالة الأساسية لتشغيل الماشين
     def run(self):
         if self.state == 'start':
             self.count_unary_length()
