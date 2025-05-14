@@ -1,0 +1,16 @@
+README.md
+setup.py
+automata_practical/__init__.py
+automata_practical.egg-info/PKG-INFO
+automata_practical.egg-info/SOURCES.txt
+automata_practical.egg-info/dependency_links.txt
+automata_practical.egg-info/top_level.txt
+automata_practical/questions_files/__init__.py
+automata_practical/questions_files/question1_dfa.py
+automata_practical/questions_files/question2_cyk_algorithm.py
+automata_practical/questions_files/question3_turing_machine.py
+automata_practical/questions_files/transition_table_turing.py
+automata_practical/tests/__init__.py
+automata_practical/tests/question1_dfa_test.py
+automata_practical/tests/question2_cyk_algorithm_test.py
+automata_practical/tests/question3_turing_machine_test.py
