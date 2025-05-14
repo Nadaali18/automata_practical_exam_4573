@@ -16,19 +16,34 @@ Simulates a Turing Machine that accepts unary strings if their length is a prime
 ## How to Run
 Make sure you have Python installed.
 
-First go to tests folder:
+### First navigate to tests folder:
 ```bash
 cd automata_practical
 cd tests
-###############################################
-To Run Question 1 two DFA:
+```
+### To Run Question 1 two DFA:
 ```bash
 python question1_dfa_test.py 
-###############################################
-To Run Question 2 CYK Algo:
+```
+### Run Screen Question1
+<p align="start">
+  <img src="./image_run/ques1.png" height="200">
+</p>
+
+### To Run Question 2 CYK Algo:
 ```bash
 python question2_cyk_algorithm_test.py 
-##############################################
-To Run Question 3 Turing Machine:
+```
+### Run Screen Question2
+<p align="start">
+  <img src="./image_run/ques2.png" height="200">
+</p>
+
+### To Run Question 3 Turing Machine:
 ```bash
 python python question3_turing_machine_test.py
+```
+### Run Screen Question3
+<p align="start">
+  <img src="./image_run/ques3.png" height="200">
+</p>
