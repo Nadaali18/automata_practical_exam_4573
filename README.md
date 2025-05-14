@@ -42,3 +42,9 @@ python question2_cyk_algorithm_test.py
 ### To Run Question 3 Turing Machine:
 ```bash
 python python question3_turing_machine_test.py
+```
+### Run Screen Question3
+<p align="start">
+  <img src="./image_run/ques3.png" height="200">
+</p>
+
